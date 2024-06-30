@@ -1,0 +1,78 @@
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+
+#outerMain{
+	background-image: url("images/bg1.jpg");
+	position: absolute;
+	left: 15%;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	top: 0;
+	min-height: 100vh;
+	min-width: 85%;
+}
+
+#mainDiv {
+	margin: auto;
+	text-align: center;
+	padding: 10px;
+}
+
+#nav {
+	background-image: url("images/bg2.jpg");
+	height: 100%;
+	width: 15%;
+	position: fixed;
+	background-size: cover;
+	left: 0;
+	top: 0;
+	border-right-style: solid;
+}
+
+.outerButton {
+	border-style: solid;
+	height: 100px;
+	width: 99%;
+	border-left-style: none;
+	display: flex;
+	flex-direction: column;
+}
+
+.navbutton {
+	margin: auto 0;
+	text-align: center;
+	color: black;
+	font-size: 25px;
+}
+
+img {
+	border-style: solid;
+	border-width: 10px;
+	border-color: gray;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#outerWrite {
+	width: 40%;
+	text-align: left;
+	margin: auto;
+}
+
+#writecomponent {
+	text-align: left;
+}
+
+button {
+	position: relative;
+	width: 80%;
+	margin: auto;
+}

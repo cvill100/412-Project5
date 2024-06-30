@@ -1,0 +1,71 @@
+#outerMain {
+	top: 20%;
+	left: 0;
+	background-image: url("images/bg3.jpg");
+	position: absolute;
+	background-size: cover;
+	background-position: bottom;
+	min-height: 80%;
+	min-width: 100%;
+}
+
+#mainDiv {
+	text-align: center;
+}
+
+#nav {
+	top: 0;
+	left: 0;
+	height: 20%;
+	background-image: url("images/bg4.jpg");
+	position: fixed;
+	background-position: 40% 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	display: block;
+	float: left;
+	opacity: 0.9;
+}
+
+#outerWrite {
+	width: 60%;
+	margin: auto;
+	text-align: left;
+}
+
+#writeComponent {
+	text-align: left;
+}
+
+.outerButton {
+	height: 100%;
+	width: 16%;
+	position: relative;
+	float: left;
+	text-align: center;
+	border-left-style: solid;
+	border-right-style: solid;
+}
+
+.navbutton {
+	position: relative;
+	color: black;
+	font-size: 25px;
+	top: 40%;
+}
+
+
+
+#toggleStyle {
+	position: relative;
+	width: 18%;
+	border-right-style: none;
+}
+
+button {
+	position: relative;
+	width: 80%;
+	margin: auto;
+	top: 40%;
+}
